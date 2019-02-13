@@ -28,7 +28,8 @@
 
 	<p class="text">恭喜，SpringMVC項目已經成功搭建</p>
 	<input type="button" name="button" id="button" value="按钮" />
-	<input tupe="text" value="http://localhost:8889/SpringMVCMavenTest/view?path=index"/>
+	<label for="email">http://localhost:8889/SpringMVCMavenTest/view?path=index</label>
+	<input type="text" value="http://localhost:8889/SpringMVCMavenTest/view?path=index"/>
 	<button>切换</button>	
 	${contextPath}
 </body>
